@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;realStock.Market&apos; to &apos;StockMarket&apos;&#x0D;&#x0A;- Original project: &apos;realStock&apos;&#x0D;&#x0A;- Original element: &apos;realStock.Market&apos;&#x0D;&#x0A;- Renamed element: &apos;realStock.StockMarket&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Market&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;realStock{Market.java[Market" matchStrategy="1" name="StockMarket" qualified="false" references="true" similarDeclarations="false" stamp="1639964901090" textual="false" version="1.0"/>
+</session>

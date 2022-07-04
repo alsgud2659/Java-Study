@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Variable1.java&apos; to &apos;day07/src/variable&apos;&#x0D;&#x0A;- Original project: &apos;day07&apos;&#x0D;&#x0A;- Destination element: &apos;day07/src/variable&apos;&#x0D;&#x0A;- Original element: &apos;variable.Variable1.java&apos;" description="Copy compilation unit" destination="/src&lt;variable" element1="/src&lt;variable{Variable1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1638490612452" units="1" version="1.0"/>
+</session>

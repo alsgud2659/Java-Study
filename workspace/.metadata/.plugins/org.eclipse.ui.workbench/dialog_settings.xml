@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="763" key="DIALOG_X_ORIGIN"/>
+		<item value="262" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="950" key="dialogHeight"/>
+		<item value="1161" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\aigb_0900_hds\Java\workspace\crawling.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\user.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\realstock.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\bank.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\names.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\boxOffice.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day17.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\realStock.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day16.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day15.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day14.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day13.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day12.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day11.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day10.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day09.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day07.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day06.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day045.zip"/>
+			<item value="D:\aigb_0900_hds\Java\workspace\day04.zip"/>
+		</list>
+	</section>
+</section>

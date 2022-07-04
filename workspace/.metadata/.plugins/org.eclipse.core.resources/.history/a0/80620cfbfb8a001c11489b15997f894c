@@ -1,0 +1,16 @@
+package com.jdbc.mysql;
+
+import java.sql.Connection;
+
+public class DBConnecter {
+	public static Connection getConnection() {
+		Connection conn = null;
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			String url = "jdbc:mysql://localhost:3306/test";
+			
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+}

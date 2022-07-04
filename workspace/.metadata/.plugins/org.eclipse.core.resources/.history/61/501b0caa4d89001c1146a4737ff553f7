@@ -1,0 +1,33 @@
+package crawling;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Test2 {
+	
+	public static int solution(String number) {
+	      int answer =0;
+
+	      String[] num = number.split("0");
+	      ArrayList<Integer> ar = new ArrayList<>();
+	      
+	      for (int i = 0; i < num.length; i++) {
+	         ar.add(num[i].length());
+	      }
+	      Collections.sort(ar, Collections.reverseOrder());
+	      
+	      if(ar.size()==0) {
+	         answer =0;
+	      }else {
+	         answer = ar.get(0);
+	      };
+
+	      return answer;
+	      
+	   }
+
+	
+	public static void main(String[] args) {
+		
+	}
+}

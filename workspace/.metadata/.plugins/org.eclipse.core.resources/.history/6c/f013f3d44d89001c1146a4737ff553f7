@@ -1,0 +1,28 @@
+package crawling;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Test2 {
+	public int solution(String s) {
+        int answer = -1;
+        String[] arData = s.split("0");
+        ArrayList<Integer> lengths = new ArrayList<>();
+        if(arData.length == 0){
+            answer = 0;
+        }else{
+            for(String data : arData){
+                lengths.add(data.length());
+            }
+            Collections.sort(lengths);
+            answer = lengths.get(lengths.size() - 1);
+        }
+        return answer;
+    }
+
+
+	
+	public static void main(String[] args) {
+		
+	}
+}

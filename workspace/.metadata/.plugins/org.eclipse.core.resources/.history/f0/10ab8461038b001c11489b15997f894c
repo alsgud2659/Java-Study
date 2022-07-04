@@ -1,0 +1,10 @@
+package com.jdbc.mysql.task;
+
+import java.util.ArrayList;
+
+public class Test {
+	public static void main(String[] args) {
+		MemberDAO dao = new MemberDAO();
+		ArrayList<MemberVO> members = dao.getInfo("한동석");
+	}
+}

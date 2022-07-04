@@ -1,0 +1,31 @@
+package com.jdbc.mysql.task;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+public class MemberDAO {
+	Connection conn;
+	PreparedStatement pstm;
+	ResultSet rs;
+	
+	public List<MemberVO> getInfo(String name) {
+		String query = "select memberName, memberBirth from member where memberName = ?";
+		MemberVO member = new MemberVO();
+		try {
+			conn = DBConnecter.getConnection();
+			pstm = conn.prepareStatement(query);
+			pstm.setString(1, name);
+			rs = pstm.executeQuery();
+			rs.next();
+			member.setMemberName(rs.getString(1));
+			member.setMemberBirth(rs.getString(2));
+		} catch (SQLException e) {
+			System.out.println("getInfo(String) SQL 오류");
+			e.printStackTrace();
+		}
+		return member;
+	}
+}

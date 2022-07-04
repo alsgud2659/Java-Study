@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;laskRanking&apos; in &apos;dao.BoxOfficeDAO.appendAndInsert(...)&apos; to &apos;lastRanking&apos;&#x0D;&#x0A;- Original project: &apos;boxOffice&apos;&#x0D;&#x0A;- Original element: &apos;dao.BoxOfficeDAO.appendAndInsert(BoxOfficeVO).laskRanking&apos;&#x0D;&#x0A;- Renamed element: &apos;laskRanking&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;laskRanking&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;dao{BoxOfficeDAO.java[BoxOfficeDAO~appendAndInsert~QBoxOfficeVO;@laskRanking!389!408!393!403!I!0!false" name="lastRanking" references="true" stamp="1640066748690" version="1.0"/>
+</session>

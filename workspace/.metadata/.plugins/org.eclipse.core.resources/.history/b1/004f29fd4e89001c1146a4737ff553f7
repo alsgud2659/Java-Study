@@ -1,0 +1,70 @@
+package crawling;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Test2 {
+	
+	   public static int solution(int[] winnum , int bonus, int[] usernum) {
+		      int answer =0;
+		      ArrayList<Integer> winN = new ArrayList<>();
+		      ArrayList<Integer> userN= new ArrayList<>();
+
+		      int score=0;
+		      
+		      for (int i = 0; i < winnum.length; i++) {
+		         winN.add(winnum[i]);
+		      }
+		      for (int i = 0; i < usernum.length; i++) {
+		         userN.add(usernum[i]);
+		      }
+		      
+		      Collections.sort(winN);
+		      Collections.sort(userN);
+		      
+		      for(Integer i : winN) {
+		         for(Integer j: userN) {
+		            if(i==j) {
+		               score++;
+		               break;
+		            }
+		         }
+		      }
+		      
+		      switch (score) {
+		      case 6:answer =score;
+		               break;
+		      
+		      case 5: 
+		               if(userN.contains(bonus)) {
+		                  answer =2;
+		               }else {answer=3;}
+		               break;
+		      
+		      case 4:
+		               answer =score;
+		               break;
+		         
+		      case 3:
+		               answer =5;
+		               break;
+		      case 2:
+		               answer =-1;
+		               break;
+		      case 1: 
+		               answer =-1;
+		               break;
+		         
+		      case 0:
+		               answer =-1;
+		               break;
+		            
+		      }
+		   
+		      return answer;
+		   }
+	
+	public static void main(String[] args) {
+		
+	}
+}
